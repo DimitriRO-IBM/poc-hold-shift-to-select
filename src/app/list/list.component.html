@@ -1,0 +1,3 @@
+<div *ngFor="let number of '0123456789'.split('')">
+  <app-item [content]="number" (clicked)="itemSelected($event)"></app-item>
+</div>

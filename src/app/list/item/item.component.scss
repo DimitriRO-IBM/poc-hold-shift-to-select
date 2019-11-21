@@ -1,0 +1,19 @@
+:host {
+  min-width: 25vw;
+  cursor: pointer;
+  user-select: none;
+
+  p {
+    color: blue;
+    border: 1px solid blue;
+
+    margin: 0 auto;
+    padding: 2vw;
+
+    &.selected {
+      border-color: red;
+      color: red;
+    }
+  }
+
+}
